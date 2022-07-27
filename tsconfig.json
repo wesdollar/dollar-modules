@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "types": ["node", "jest"],
+    "declaration": true,
+    "strict": true
+  },
+  "watchOptions": {
+    "excludeFiles": ["./jest.config.ts"],
+    "excludeDirectories": [".vscode", ".yarn", "dist", "node_modules"]
+  },
+  "exclude": [
+    "lib",
+    "node_modules",
+    "src/**/*.spec.ts",
+    "./dist/**/*",
+    "jest.config.ts"
+  ]
+}
