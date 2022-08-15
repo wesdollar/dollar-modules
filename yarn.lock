@@ -15,13 +15,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/types@npm:^3.78.0":
-  version: 3.78.0
-  resolution: "@aws-sdk/types@npm:3.78.0"
-  checksum: dd69607fb67a7e8ca934b486ee61caa290b9d65b71507168d1d03abc34fbb61c10468e9b29ec7d3dd1c5a6a0b6bbcbc0a269928c2e4b3e377d2d7ab41e1e5350
-  languageName: node
-  linkType: hard
-
 "@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.12.13, @babel/code-frame@npm:^7.16.7":
   version: 7.16.7
   resolution: "@babel/code-frame@npm:7.16.7"
@@ -1352,6 +1345,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@dollarcode/dollar-modules@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@dollarcode/dollar-modules@workspace:."
+  dependencies:
+    "@babel/core": ^7.18.2
+    "@babel/preset-env": ^7.18.2
+    "@babel/preset-typescript": ^7.17.12
+    "@bugsnag/core": ^7.16.7
+    "@types/express": ^4.17.13
+    "@types/jest": ^28.1.1
+    "@types/node": ^17.0.41
+    "@types/rimraf": ^3.0.2
+    eslint: ^8.17.0
+    express: ^4.18.1
+    jest: ^28.1.1
+    npm-run-all: ^4.1.5
+    numbro: ^2.3.6
+    prettier: ^2.6.2
+    rimraf: ^3.0.2
+    ts-node: ^10.8.1
+    typescript: ^4.7.3
+  languageName: unknown
+  linkType: soft
+
 "@eslint/eslintrc@npm:^1.3.0":
   version: 1.3.0
   resolution: "@eslint/eslintrc@npm:1.3.0"
@@ -1870,6 +1887,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/glob@npm:*":
+  version: 7.2.0
+  resolution: "@types/glob@npm:7.2.0"
+  dependencies:
+    "@types/minimatch": "*"
+    "@types/node": "*"
+  checksum: 6ae717fedfdfdad25f3d5a568323926c64f52ef35897bcac8aca8e19bc50c0bd84630bbd063e5d52078b2137d8e7d3c26eabebd1a2f03ff350fff8a91e79fc19
+  languageName: node
+  linkType: hard
+
 "@types/graceful-fs@npm:^4.1.3":
   version: 4.1.5
   resolution: "@types/graceful-fs@npm:4.1.5"
@@ -1921,6 +1948,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/minimatch@npm:*":
+  version: 3.0.5
+  resolution: "@types/minimatch@npm:3.0.5"
+  checksum: c41d136f67231c3131cf1d4ca0b06687f4a322918a3a5adddc87ce90ed9dbd175a3610adee36b106ae68c0b92c637c35e02b58c8a56c424f71d30993ea220b92
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:*":
   version: 17.0.40
   resolution: "@types/node@npm:17.0.40"
@@ -1953,6 +1987,16 @@ __metadata:
   version: 1.2.4
   resolution: "@types/range-parser@npm:1.2.4"
   checksum: b7c0dfd5080a989d6c8bb0b6750fc0933d9acabeb476da6fe71d8bdf1ab65e37c136169d84148034802f48378ab94e3c37bb4ef7656b2bec2cb9c0f8d4146a95
+  languageName: node
+  linkType: hard
+
+"@types/rimraf@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "@types/rimraf@npm:3.0.2"
+  dependencies:
+    "@types/glob": "*"
+    "@types/node": "*"
+  checksum: b47fa302f46434cba704d20465861ad250df79467d3d289f9d6490d3aeeb41e8cb32dd80bd1a8fd833d1e185ac719fbf9be12e05ad9ce9be094d8ee8f1405347
   languageName: node
   linkType: hard
 
@@ -5219,30 +5263,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"proganywhere-modules@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "proganywhere-modules@workspace:."
-  dependencies:
-    "@aws-sdk/types": ^3.78.0
-    "@babel/core": ^7.18.2
-    "@babel/preset-env": ^7.18.2
-    "@babel/preset-typescript": ^7.17.12
-    "@bugsnag/core": ^7.16.7
-    "@types/express": ^4.17.13
-    "@types/jest": ^28.1.1
-    "@types/node": ^17.0.41
-    eslint: ^8.17.0
-    express: ^4.18.1
-    jest: ^28.1.1
-    npm-run-all: ^4.1.5
-    numbro: ^2.3.6
-    prettier: ^2.6.2
-    rimraf: ^3.0.2
-    ts-node: ^10.8.1
-    typescript: ^4.7.3
-  languageName: unknown
-  linkType: soft
-
 "promise-inflight@npm:^1.0.1":
   version: 1.0.1
   resolution: "promise-inflight@npm:1.0.1"
@@ -6131,7 +6151,7 @@ __metadata:
 
 "typescript@patch:typescript@^4.7.3#~builtin<compat/typescript>":
   version: 4.7.3
-  resolution: "typescript@patch:typescript@npm%3A4.7.3#~builtin<compat/typescript>::version=4.7.3&hash=7ad353"
+  resolution: "typescript@patch:typescript@npm%3A4.7.3#~builtin<compat/typescript>::version=4.7.3&hash=f456af"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver

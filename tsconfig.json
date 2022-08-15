@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "commonjs",
+    "module": "CommonJS",
     "rootDir": "./src",
     "outDir": "./dist",
-    "moduleResolution": "node",
+    "moduleResolution": "Node",
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "types": ["node", "jest"],
@@ -20,6 +20,7 @@
     "node_modules",
     "src/**/*.spec.ts",
     "./dist/**/*",
-    "jest.config.ts"
+    "jest.config.ts",
+    "commands"
   ]
 }
